@@ -1,6 +1,6 @@
 # MARVEL BACK END API  🦸‍♀️ 🦸 🦸‍♂️
 
-### Installation
+## Installation
 
 1. Clone the repo
 
@@ -20,11 +20,11 @@
     npx nodemon index.js
     ```
    
-### API
+## API
 
-## Comics 
+### Comics 
 
-# Get a list of comics
+#### Get a list of comics
 
 Route : /comics
 
@@ -41,7 +41,7 @@ Ex : https://marvel-app-back.herokuapp.com/comics?skip=0&limit=100
 
 <br>
 
-# Get a list of comics containing a specific character
+#### Get a list of comics containing a specific character
 
 Route : /comics/:characterId
 
@@ -55,9 +55,9 @@ Ex : https://marvel-app-back.herokuapp.com/comics/5fcf921ad8a2480017b914a3
 
 <br>
 
-## Characters
+### Characters
 
-# Get a list of characters
+#### Get a list of characters
 
 Route : /characters
 
