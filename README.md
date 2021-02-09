@@ -1,28 +1,32 @@
-# MARVEL BACK END API  🦸‍♀️ 🦸 🦸‍♂️
+# MARVEL BACK END API 🦸‍♀️ 🦸 🦸‍♂️
 
 ## Installation
 
 1. Clone the repo
 
-3. Install NPM packages
+2. Install NPM packages
+
    ```sh
    yarn
    ```
-   
-4. Create a .env file with :
+
+3. Create a .env file with :
+
    ```JS
    PORT=YOUR_PORT
    API_SECRET_KEY=YOUR_API_KEY
+   URL=https://lereacteur-marvel-api.herokuapp.com
    ```
-   
-5. Run the project
-    ```JS
-    npx nodemon index.js
-    ```
-   
+
+4. Run the project
+
+   ```JS
+   npx nodemon index.js
+   ```
+
 ## API
 
-### Comics 
+### Comics
 
 #### Get a list of comics
 
@@ -30,12 +34,11 @@ Route : /comics
 
 Method : `GET`
 
-
-| Query       | Info                         | Required |
-| ----------- | ---------------------------- | -------- |
-| limit       | between 1 and 100         	 | Yes      |
-| skip        | number of results to ignore	 | Yes      |
-| title       | search a comic by title      | No       |
+| Query | Info                        | Required |
+| ----- | --------------------------- | -------- |
+| limit | between 1 and 100           | Yes      |
+| skip  | number of results to ignore | Yes      |
+| title | search a comic by title     | No       |
 
 Ex : https://marvel-app-back.herokuapp.com/comics?skip=0&limit=100
 
@@ -63,12 +66,10 @@ Route : /characters
 
 Method : `GET`
 
-| Query       | Info                         | Required |
-| ----------- | ---------------------------- | -------- |
-| limit       | between 1 and 100         	 | Yes      |
-| skip        | number of results to ignore	 | Yes      |
-| title       | search a character by name   | No       |
+| Query | Info                        | Required |
+| ----- | --------------------------- | -------- |
+| limit | between 1 and 100           | Yes      |
+| skip  | number of results to ignore | Yes      |
+| title | search a character by name  | No       |
 
 Ex : https://marvel-app-back.herokuapp.com/characters?skip=0&limit=100
-
-
