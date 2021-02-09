@@ -4,7 +4,7 @@ const axios = require("axios");
 
 router.get("/characters", async (req, res) => {
   try {
-    let url = `${process.env.URL}/comics?&limit=${req.query.limit}&skip=${req.query.skip}&apiKey=${process.env.API_SECRET_KEY}`;
+    let url = `${process.env.URL}/characters?&limit=${req.query.limit}&skip=${req.query.skip}&apiKey=${process.env.API_SECRET_KEY}`;
 
     if (req.query.name) {
       url = `${url}&name=${req.query.name}`;
