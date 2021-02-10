@@ -15,6 +15,7 @@
    ```JS
    PORT=YOUR_PORT
    API_SECRET_KEY=YOUR_API_KEY
+   FRONT_WEB_SITE=YOUR_WEB_SITE
    URL=https://lereacteur-marvel-api.herokuapp.com
    ```
 
