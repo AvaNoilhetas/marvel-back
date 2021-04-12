@@ -27,6 +27,8 @@
    npx nodemon index.js
    ```
 
+<br/>
+
 ## API
 
 ### Comics
@@ -45,7 +47,7 @@ Method : `GET`
 
 Ex : https://marvel-app-back.herokuapp.com/comics?skip=0&limit=100
 
-<br>
+<br/>
 
 #### Get a list of comics containing a specific character
 
@@ -59,7 +61,9 @@ Method : `GET`
 
 Ex : https://marvel-app-back.herokuapp.com/comics/5fcf921ad8a2480017b914a3
 
-<br>
+<br/>
+
+---
 
 ### Characters
 
